@@ -1,10 +1,12 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-export default function Search(): JSX.Element {
+const Search = (): JSX.Element => {
   return (
     <View>
       <Text>Search</Text>
     </View>
   )
 }
+
+export default Search
